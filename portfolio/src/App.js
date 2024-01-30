@@ -4,6 +4,7 @@ import './App.css';
 import profile from './images/profile.jpeg';
 import photo1 from './images/photo1.png';
 import photo2 from './images/photo2.png';
+import Sujal_CV from './images/Sujal_CV.pdf';
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
         <div className="button">
           <a href="mailto:patelsujal6021@gmail.com"
             ><i className="ri-mail-open-line"></i>Mail Me</a>
-          <a href="./Sujal_CV.pdf" className="btn2" download
+          <a href={Sujal_CV} className="btn2" download
             ><i className="ri-arrow-down-line"></i>Download  Resume</a
           >
         </div>
